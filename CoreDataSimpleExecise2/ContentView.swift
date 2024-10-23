@@ -45,7 +45,8 @@ struct ContentView: View {
             }
         }
     }
-
+    
+//MARK: DELETE STUDENTS
     func deleteStudents(at offsets: IndexSet) {
         for index in offsets {
             let student = students[index]
